@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Barberskolen Bergen — lær faget med saks i hånda</title>
+<meta name="description" content="Barberskolen i Bergen: studenter klipper for halv pris mens en mester ser på. Priser, opplæring og booking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#hoved">Til innholdet</a>
+
+<header class="head">
+  <a class="mark" href="#topp">Barberskolen</a>
+  <nav class="nav" aria-label="Innhold">
+    <a href="#skolen">Skolen</a>
+    <a href="#priser">Priser</a>
+    <a href="#sporsmal">Spørsmål</a>
+  </nav>
+  <a class="btn" href="#booking">Bestill klipp</a>
+</header>
+
+<main id="hoved">
+
+  <section class="hero" id="topp">
+    <div class="hero-copy">
+      <h1 class="hero-name"><span>Lær faget</span><span>med saks i hånda</span></h1>
+      <p class="hero-note">Barberskolen i Bergen. Studentene klipper, mesteren står bak stolen og ser på — du betaler halv pris og får en time som tar den tiden den tar.</p>
+      <a class="btn btn-big" href="#booking">Bestill klipp</a>
+    </div>
+
+    <div class="hero-art">
+      <figure class="room">
+        <img class="shot shot-a" src="../assets/img/barber-cutting-hair-with-comb-back-view.jpg" width="1920" height="1282" alt="En barberer klipper en kunde bakfra, med kam og saks i hendene.">
+        <img class="shot shot-b" src="../assets/img/flickr-government-press-office-gpo-first-haircut.jpg" width="1920" height="1280" alt="En ung gutt får sin første klipp av en barberer." loading="lazy" decoding="async">
+        <img class="shot shot-c" src="../assets/img/barber-cutting-hair-with-comb-back-view-2.jpg" width="1920" height="2876" alt="Nærbilde av kam og saks mot en klippet nakke." loading="lazy" decoding="async">
+      </figure>
+      <div class="stripe-card" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <p class="hero-fact">Halv pris · man–fre 10–19</p>
+    </div>
+  </section>
+
+  <section class="skolen" id="skolen">
+    <div class="panel">
+      <div class="panel-copy">
+        <h2 class="panel-name">Skolen er benken</h2>
+        <p>Her står seks stoler og seks elever. Hver klipp blir gjennomgått før du reiser deg: fallet i nakken, linjen over øret, hvordan saksa ble holdt. Det er derfor det tar en time.</p>
+        <p>Vi tar imot alle håryper og alle hoder, også de som har lite igjen. Elev som mester, samme benk.</p>
+        <a class="btn" href="#priser">Se priser</a>
+      </div>
+      <figure class="panel-shot">
+        <img src="../assets/img/scottsdale-1905-barber-chair.jpg" width="1920" height="2560" alt="En gammel barberstol i skinn med krom og armlener." loading="lazy" decoding="async">
+      </figure>
+      <dl class="panel-facts">
+        <div><dt>Elever</dt><dd>6 per kull</dd></div>
+        <div><dt>Læretid</dt><dd>2 år</dd></div>
+        <div><dt>Mester</dt><dd>alltid til stede</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <div class="band" aria-hidden="true"></div>
+
+  <section class="slik" id="slik">
+    <h2 class="slik-name">Slik foregår timen</h2>
+    <ul class="steps">
+      <li class="step">
+        <div class="step-top"><span class="stripe-chip" aria-hidden="true"><span></span><span></span><span></span></div><h3>Først snakker vi</h3></div>
+        <p>Du forteller hva du vil ha, eleven gjentar det tilbake, og mesteren sier ja eller nei. Ingen overraskelser etterpå.</p>
+      </li>
+      <li class="step">
+        <div class="step-top"><span class="stripe-chip" aria-hidden="true"><span></span><span></span><span></span></div><h3>Så klippes det</h3></div>
+        <p>Eleven klipper, mesteren retter. Du kan si stopp når som helst — håret gror ut igjen, det gjør ikke faget.</p>
+      </li>
+      <li class="step">
+        <div class="step-top"><span class="stripe-chip" aria-hidden="true"><span></span><span></span><span></span></div><h3>Til slutt en sjekk</h3></div>
+        <p>Begge ser på resultatet fra alle kanter, og du får med deg notatet om hva som ble gjort. Neste gang tar det kortere tid.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="priser" id="priser">
+    <div class="priser-head">
+      <h2 class="priser-name">Priser</h2>
+      <div class="toggle" role="group" aria-label="Velg pris">
+        <button class="toggle-btn is-on" type="button" data-mode="student" aria-pressed="true">Student</button>
+        <button class="toggle-btn" type="button" data-mode="vanlig" aria-pressed="false">Vanlig</button>
+      </div>
+    </div>
+    <p class="priser-note">Studentprisen gjelder alle som klippes av en elev. Mesteren tar full pris når eleven er ferdig med sin del av stolen.</p>
+
+    <ul class="menu">
+      <li class="item" data-full="550" data-student="275">
+        <img class="bullet" src="../assets/img/four-pairs-of-scissors.jpg" width="1905" height="895" alt="" loading="lazy" decoding="async">
+        <span class="item-name">Herreklipp</span>
+        <span class="item-price">275</span>
+      </li>
+      <li class="item" data-full="600" data-student="300">
+        <img class="bullet" src="../assets/img/pair-of-scissors-with-black-handle-2015.jpg" width="1920" height="1600" alt="" loading="lazy" decoding="async">
+        <span class="item-name">Fade</span>
+        <span class="item-price">300</span>
+      </li>
+      <li class="item" data-full="820" data-student="410">
+        <img class="bullet" src="../assets/img/shaving-set.jpg" width="1750" height="2400" alt="" loading="lazy" decoding="async">
+        <span class="item-name">Klipp og skjegg</span>
+        <span class="item-price">410</span>
+      </li>
+      <li class="item" data-full="350" data-student="175">
+        <img class="bullet" src="../assets/img/the-barber.jpg" width="3595" height="2741" alt="" loading="lazy" decoding="async">
+        <span class="item-name">Skjeggtrim</span>
+        <span class="item-price">175</span>
+      </li>
+      <li class="item" data-full="495" data-student="248">
+        <img class="bullet" src="../assets/img/shaving-set.jpg" width="1750" height="2400" alt="" loading="lazy" decoding="async">
+        <span class="item-name">Kniv og varmt håndkle</span>
+        <span class="item-price">248</span>
+      </li>
+      <li class="item" data-full="325" data-student="160">
+        <img class="bullet" src="../assets/img/flickr-government-press-office-gpo-first-haircut.jpg" width="1920" height="1280" alt="" loading="lazy" decoding="async">
+        <span class="item-name">Barn under 12</span>
+        <span class="item-price">160</span>
+      </li>
+    </ul>
+
+    <p class="priser-hours">Man–fre 10–19 · lørdag 10–15 · stengt søndag</p>
+  </section>
+
+  <section class="sporsmal" id="sporsmal">
+    <h2 class="sporsmal-name">Det folk spør om</h2>
+    <div class="qa">
+      <p><strong>Får jeg en elev eller en mester?</strong> Du får en elev, med mesteren stående bak. Vil du ha mesteren selv, sier du det når du bestiller — da koster det full pris.</p>
+      <p><strong>Kan det gå galt?</strong> Det hender at det blir kortere enn tenkt. Vi sier fra før vi begynner, og eleven får ikke klippe videre uten at du sier ja.</p>
+      <p><strong>Hvor lang tid tar det?</strong> En time, gjerne litt mer. Eleven trenger tid på å sjekke, og vi lar dem gjøre det.</p>
+      <p><strong>Er det trygt?</strong> Alle elever har bestått teoriprøven og klipper under tilsyn fra første dag. Ingen står alene med saksa.</p>
+      <p><strong>Kan jeg bestille til barnet mitt?</strong> Ja. Barn under tolv klippes for halv pris, og vi tar gjerne de første klippene før leggetid.</p>
+      <p><strong>Hvor ligger skolen?</strong> Nygårdsgaten 21, fem minutter fra Nygårdstangen. Inngangen er på baksiden, ved porten.</p>
+    </div>
+  </section>
+
+  <section class="booking" id="booking">
+    <div class="coupon">
+      <div class="coupon-left">
+        <h2 class="coupon-name">Bestill en time</h2>
+        <p>Skriv navnet og nummeret ditt, så ringer vi deg innen en time i åpningstiden.</p>
+      </div>
+      <form class="coupon-form" id="skjema" novalidate>
+        <label class="sr" for="navn">Navn</label>
+        <input id="navn" name="navn" type="text" autocomplete="name" placeholder="Navnet ditt" required>
+        <label class="sr" for="tlf">Telefon</label>
+        <input id="tlf" name="tlf" type="tel" autocomplete="tel" placeholder="Telefonnummer" required>
+        <button class="btn btn-big" type="submit">Send</button>
+        <p class="form-note" id="form-note" role="status">Vi ringer tilbake samme dag.</p>
+      </form>
+    </div>
+    <p class="booking-where">Nygårdsgaten 21, 5015 Bergen · <a href="tel:+4755322121">+47 55 32 21 21</a> · <a href="mailto:hei@barberskolen.no">hei@barberskolen.no</a></p>
+  </section>
+</main>
+
+<footer class="foot">
+  <p class="foot-mark">Barberskolen Bergen</p>
+  <p>Nygårdsgaten 21, 5015 Bergen · man–fre 10–19 · lørdag 10–15 · stengt søndag</p>
+  <p class="foot-credits">Bilder: «Barber cutting hair with comb. Back view of man in barber shop» by Nenad Stojkovic, CC BY 2.0, via Wikimedia Commons · «Barber cutting hair with comb. Back view of young man in barber shop» by Nenad Stojkovic, CC BY 2.0, via Wikimedia Commons · «Scottsdale-1905 Barber Chair» by Marine 69-71, CC BY-SA 4.0, via Wikimedia Commons · «Shaving-Set» by Evan-Amos, public domain, via Wikimedia Commons · «Four pairs of scissors» by Evan-Amos, public domain, via Wikimedia Commons · «Pair of scissors with black handle 2015» by Crisco 1492, CC BY-SA 4.0, via Wikimedia Commons · «First haircut» by Flickr Government Press Office, CC BY-SA 3.0, via Wikimedia Commons</p>
+  <p class="foot-fine">Barberskolen Bergen er en fiktiv skole laget som designforslag. Bilder av byen og håndverket er lånt og kreditert over.</p>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>

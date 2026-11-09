@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Se de ti sidene · Barberbergen</title>
+<meta name="description" content="Bla gjennom de ti barbersalong-sidene på mobil eller bred skjerm, uten å forlate visningen.">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=bespoke-serif@400,500&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="visning.css">
+</head>
+<body>
+
+<a class="skip" href="#scenen">Til visningen</a>
+
+<h1 class="sr-only">Visning: ti barbershopsider for Bergen</h1>
+
+<div class="shell">
+
+  <header class="bar">
+    <a class="back" href="index.html">Barber&shy;bergen</a>
+
+    <div class="pager" role="group" aria-label="Bytt side">
+      <button class="step" id="forrige" type="button" aria-label="Forrige side">
+        <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M10.5 2.5 5 8l5.5 5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <p class="who"><span class="who-name" id="navn">Bryggen Barber</span><span class="who-count" id="teller">1 av 10</span></p>
+      <button class="step" id="neste" type="button" aria-label="Neste side">
+        <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" focusable="false"><path d="M5.5 2.5 11 8l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+
+    <div class="device" role="group" aria-label="Bredde">
+      <button type="button" class="dev" id="mobil" aria-pressed="true">Mobil</button>
+      <button type="button" class="dev" id="bred" aria-pressed="false">Bred</button>
+    </div>
+
+    <a class="open" id="apne" href="01-bryggen-barber/index.html" target="_blank" rel="noopener">Åpne</a>
+  </header>
+
+  <div class="stage" id="scenen">
+    <div class="frame" id="ramme">
+      <iframe id="side" title="Forhåndsvisning av den valgte salongssiden" src="01-bryggen-barber/index.html"></iframe>
+    </div>
+    <p class="hint" id="hint">Sveip sidelengs nederst, eller bruk piltastene.</p>
+  </div>
+
+  <nav class="dock" aria-label="De ti sidene">
+    <div class="track" id="track">
+      <a class="chip" href="#01-bryggen-barber" data-i="0">Bryggen</a>
+      <a class="chip" href="#02-regn-og-barber" data-i="1">Regn</a>
+      <a class="chip" href="#03-nordnes-barber" data-i="2">Nordnes</a>
+      <a class="chip" href="#04-fjell-fade" data-i="3">Fjell</a>
+      <a class="chip" href="#05-sandviken-skjegg" data-i="4">Sandviken</a>
+      <a class="chip" href="#06-barberskolen" data-i="5">Skolen</a>
+      <a class="chip" href="#07-kai-12" data-i="6">Kai 12</a>
+      <a class="chip" href="#08-asane-barber" data-i="7">Åsane</a>
+      <a class="chip" href="#09-nattbarber" data-i="8">Natt</a>
+      <a class="chip" href="#10-sjo-og-saks" data-i="9">Sjø &amp; saks</a>
+    </div>
+  </nav>
+
+</div>
+
+<script src="visning.js" defer></script>
+</body>
+</html>

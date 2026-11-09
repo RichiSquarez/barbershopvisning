@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nattbarber — klipp etter vakta, Bergen</title>
+<meta name="description" content="Nattbarber i Nøstegaten 4 i Bergen. Herreklipp, fade og skjegg fra 18 til 01, for deg som jobber når andre sover.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#hoved">Til innholdet</a>
+
+<header class="site-head">
+  <a class="mark" href="#topp" aria-label="Nattbarber, til toppen">N</a>
+  <nav class="site-nav" aria-label="Hovedmeny">
+    <a href="#priser">Priser</a>
+    <a href="#kvelden">Kvelden</a>
+    <a href="#sporsmal">Spørsmål</a>
+    <a class="btn" href="#booking">Bestill time</a>
+  </nav>
+</header>
+
+<main id="hoved">
+
+  <section class="hero" id="topp" aria-labelledby="hero-name">
+    <h1 class="hero-name" id="hero-name">
+      <span class="line line-a"><span>Natt</span></span>
+      <span class="line line-b"><span>barber</span></span>
+    </h1>
+    <p class="hero-note">Frisør i Nøstegaten for deg som er ferdig med vakta, ikke med dagen. Åpent 18–01.</p>
+  </section>
+
+  <section class="poster" id="priser" aria-labelledby="priser-h">
+    <h2 class="sr-only" id="priser-h">Priser</h2>
+    <ul class="services">
+      <li class="reveal"><a href="#booking"><span class="svc">Herreklipp</span><span class="price">550</span></a></li>
+      <li class="reveal"><a href="#booking"><span class="svc">Fade</span><span class="price">600</span></a></li>
+      <li class="reveal"><a href="#booking"><span class="svc">Klipp og skjegg</span><span class="price">820</span></a></li>
+      <li class="reveal"><a href="#booking"><span class="svc">Skjeggtrim</span><span class="price">350</span></a></li>
+      <li class="reveal"><a href="#booking"><span class="svc">Klippekort</span><span class="price">5 for 2 400</span></a></li>
+    </ul>
+    <p class="poster-note reveal">Alle priser i kroner. Studierabatt 425 på hverdager før klokka 20.</p>
+  </section>
+
+  <figure class="band reveal">
+    <img src="../assets/img/bergen-bryggen-night-tunliweb.jpg" width="1920" height="1080"
+         alt="Bryggen i Bergen om natten, vinduene lyser og husrekka speiler seg i vannet."
+         decoding="async">
+  </figure>
+
+  <section class="how" id="kvelden" aria-labelledby="kvelden-h">
+    <div class="how-copy reveal">
+      <h2 id="kvelden-h">Slik går kvelden</h2>
+      <p>Du trenger ikke ta fri fra jobben. Vi åpner når kjøkkenet stenger, og du kan komme rett fra vakt i arbeidstøy. Ta med deg køen, så ser vi på den sammen.</p>
+      <p class="status" id="status" aria-live="polite">Sjekker åpningstida …</p>
+    </div>
+
+    <div class="slip reveal">
+      <p class="slip-head">Kvelden din</p>
+      <div class="slip-group reveal" data-days="1,2,3,4">
+        <p class="slip-time">18–20 <span>etter jobb</span></p>
+        <p class="slip-row"><span>Drop-in, kort kø</span><span class="lead" aria-hidden="true">· · · · · · · · · · · ·</span><span>15 min</span></p>
+        <p class="slip-row"><span>Klipp</span><span class="lead" aria-hidden="true">· · · · · · · · · · · ·</span><span>45 min</span></p>
+      </div>
+      <div class="slip-group reveal" data-days="1,2,3,4,5">
+        <p class="slip-time">20–23 <span>midt i kvelden</span></p>
+        <p class="slip-row"><span>Bestilt time</span><span class="lead" aria-hidden="true">· · · · · · · · · · · ·</span><span>45 min</span></p>
+        <p class="slip-row"><span>Skjegg etter klipp</span><span class="lead" aria-hidden="true">· · · · · · · · · · · ·</span><span>20 min</span></p>
+      </div>
+      <div class="slip-group reveal" data-days="5,6">
+        <p class="slip-time">23–01 <span>siste økt</span></p>
+        <p class="slip-row"><span>Drop-in</span><span class="lead" aria-hidden="true">· · · · · · · · · · · ·</span><span>ledig</span></p>
+        <p class="slip-row"><span>Siste klipp</span><span class="lead" aria-hidden="true">· · · · · · · · · · · ·</span><span>00:15</span></p>
+      </div>
+      <p class="slip-total reveal"><span>Ute i natten</span><span>45 min</span></p>
+    </div>
+  </section>
+
+  <section class="stills" aria-labelledby="stills-h">
+    <h2 class="sr-only" id="stills-h">Fra faget og byen</h2>
+    <div class="stills-grid">
+      <figure class="reveal">
+        <img src="../assets/img/the-barber.jpg" width="3595" height="2741"
+             alt="Maleri fra 1632 av en barber som klipper en kunde i en stue med hjelpere rundt."
+             loading="lazy" decoding="async">
+        <figcaption>Barberstua, Abraham Bosse, 1632–33.</figcaption>
+      </figure>
+      <figure class="reveal">
+        <img src="../assets/img/shaving-set.jpg" width="1750" height="2400"
+             alt="Barberkniv, kost og såpekopp stilt opp mot hvit bakgrunn."
+             loading="lazy" decoding="async">
+        <figcaption>Kniv, kost og kopp.</figcaption>
+      </figure>
+      <figure class="reveal">
+        <img src="../assets/img/barber-cutting-hair-with-comb-back-view.jpg" width="1920" height="1282"
+             alt="Barber som klipper en mann bakfra med kam og saks i en salong."
+             loading="lazy" decoding="async">
+        <figcaption>Kam og saks, ingen dill.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="faq" id="sporsmal" aria-labelledby="sporsmal-h">
+    <div class="faq-side reveal">
+      <h2 id="sporsmal-h">Det folk spør om</h2>
+      <img src="../assets/img/scottsdale-1905-barber-chair.jpg" width="1920" height="2560"
+           alt="En gammel barberstol i tre og skinn, fotografert i et museum."
+           loading="lazy" decoding="async">
+    </div>
+    <div class="faq-text reveal">
+      <p><b>Må jeg bestille?</b> Nei. Halvparten av kveldene går på drop-in, og du kan ringe fra døra og høre hvor lang køen er.</p>
+      <p><b>Hvor lenge er dere åpne?</b> Hverdager og lørdag 18–01. Siste klipp tas 00:15, og søndag holder vi stengt.</p>
+      <p><b>Klipper dere skjegg sent?</b> Ja. Skjeggtrim tar tjue minutter og går fint etter klippen, også etter midnatt.</p>
+      <p><b>Kan jeg komme i arbeidstøy?</b> Kom som du er. Det er halve poenget: kjøkkenskap, sykehussko og olje på hendene er helt greit.</p>
+      <p><b>Tar dere kort?</b> Ja, kort og Vipps. Kontanter går også, men vi har sjelden veksel sent på kvelden.</p>
+      <p><b>Hva koster det?</b> Herreklipp 550, klipp og skjegg 820. Studierabatt er 425 på hverdager før klokka 20.</p>
+      <p><b>Hvor ligger dere?</b> Nøstegaten 4, to minutter fra Torget og fem fra Hurtigrutekaia. Inngangen er på hjørnet.</p>
+      <p><b>Kan jeg avbestille?</b> Ja, gratis fram til to timer før. Ring, eller svar på bekreftelsen du får på SMS.</p>
+      <p><b>Hvor lang tid tar en klipp?</b> Tretti til førtifem minutter, avhengig av hår og hvor mye som skal bort.</p>
+      <p><b>Tar dere barn?</b> Barn under tolv klippes til 325, men helst før klokka 20. Da er lokalet roligere.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="booking" aria-labelledby="booking-h">
+    <h2 class="sr-only" id="booking-h">Bestill time</h2>
+    <p class="contact-note reveal">Skriv hvis du vil ha time etter midnatt.</p>
+    <a class="contact-mail reveal" href="mailto:hei@nattbarber.no">hei@<wbr>nattbarber.no</a>
+    <div class="contact-foot">
+      <p><a href="tel:+4755124009">+47 55 12 40 09</a><br>Nøstegaten 4, 5010 Bergen</p>
+      <p><a href="https://www.instagram.com/">Instagram</a><br><a href="https://www.facebook.com/">Facebook</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <p class="foot-row">Nattbarber · Nøstegaten 4, 5010 Bergen · <a href="tel:+4755124009">+47 55 12 40 09</a></p>
+  <p class="foot-row">Hverdager 18–01 · lørdag 16–01 · stengt søndag</p>
+  <p class="credits">Bilder: «"Bergen Bryggen night tunliweb" by Svein Magne Tunli, CC BY-SA 4.0, via Wikimedia Commons» · «"The Barber" by Abraham Bosse, 1632–33, public domain (CC0), via The Metropolitan Museum of Art» · «"Shaving-Set" by Evan-Amos, public domain, via Wikimedia Commons» · «"Barber cutting hair with comb. Back view of man in barber shop" by Nenad Stojkovic, CC BY 2.0, via Wikimedia Commons» · «"Scottsdale-1905 Barber Chair" by Marine 69-71, CC BY-SA 4.0, via Wikimedia Commons»</p>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
